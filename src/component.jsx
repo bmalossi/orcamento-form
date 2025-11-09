@@ -110,7 +110,7 @@ export default function QuoteForm() {
         {/* Header with Logo */}
         <div className="text-center mb-12">
           <img 
-            src="786hzaPzfGxQ1aH6UufS3" 
+            src="https://wp.proauto.org.br/wp-content/uploads/2024/10/proauto-blog-image-seo-1-1600x840.png" 
             alt="PROAUTO" 
             className="h-24 mx-auto mb-6"
           />
@@ -179,7 +179,7 @@ export default function QuoteForm() {
                     name="telefone"
                     value={formData.telefone}
                     onChange={handleChange}
-                    placeholder="(11) 98765-4321"
+                    placeholder="(13) 97827-6520"
                     className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 transition ${
                       errors.telefone ? 'border-red-500 bg-red-50' : 'border-gray-300 bg-gray-50'
                     }`}
