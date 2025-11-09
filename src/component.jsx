@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { AlertCircle, CheckCircle, Loader } from 'lucide-react';
+import logo from './assets/logo-proauto.png';
 
 export default function QuoteForm() {
   const [formData, setFormData] = useState({
@@ -110,7 +111,7 @@ export default function QuoteForm() {
         {/* Header with Logo */}
         <div className="text-center mb-12">
           <img 
-            src="https://wp.proauto.org.br/wp-content/uploads/2024/10/proauto-blog-image-seo-1-1600x840.png" 
+            src={logo}
             alt="PROAUTO" 
             className="h-24 mx-auto mb-6"
           />
